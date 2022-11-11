@@ -1,6 +1,46 @@
 <div class="d-flex flex-row">
-  <div class="text-white fw-bold mx-4" role="button">HOME</div>
-  <div class="text-white fw-bold mx-4" role="button">SOFTWARE</div>
-  <div class="text-white fw-bold mx-4" role="button">DONATE</div>
-  <div class="text-white fw-bold mx-4" role="button">CONTACT</div>
+  <div
+    class="fw-bold mx-4"
+    [ngClass]="{
+      'text-accent': this.isHomeSelected,
+      'text-white': !this.isHomeSelected
+    }"
+    role="button"
+    (click)="this.navigateToHome()"
+  >
+    HOME
+  </div>
+  <div
+    class="fw-bold mx-4"
+    [ngClass]="{
+      'text-accent': this.isSoftwareSelected,
+      'text-white': !this.isSoftwareSelected
+    }"
+    role="button"
+    (click)="this.navigateToSoftware()"
+  >
+    SOFTWARE
+  </div>
+  <div
+    class="fw-bold mx-4"
+    [ngClass]="{
+      'text-accent': this.isDonateSelected,
+      'text-white': !this.isDonateSelected
+    }"
+    role="button"
+    (click)="this.navigateToDonate()"
+  >
+    DONATE
+  </div>
+  <div
+    class="fw-bold mx-4"
+    [ngClass]="{
+      'text-accent': this.isContactSelected,
+      'text-white': !this.isContactSelected
+    }"
+    role="button"
+    (click)="this.navigateToContact()"
+  >
+    CONTACT
+  </div>
 </div>
