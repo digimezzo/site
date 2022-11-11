@@ -5,6 +5,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { DonateComponent } from "./components/donate/donate.component";
+import { DopamineFaqComponent } from "./components/dopamine-faq/dopamine-faq.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { HomeComponent } from "./components/home/home.component";
 import { MenuComponent } from "./components/menu/menu.component";
@@ -21,6 +22,7 @@ import { SoftwareComponent } from "./components/software/software.component";
     MenuComponent,
     FooterComponent,
     SocialMediaLinkComponent,
+    DopamineFaqComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

@@ -1,0 +1,213 @@
+Dopamine FAQ
+<div class="d-flex flex-column w-100 min-vh-100 align-items-center">
+  <div class="page-header d-flex w-100 flex-column">
+    <div class="h-100 w-100 d-flex p-4">
+      <div class="h-100 d-flex align-items-center">
+        <img src="assets/images/logo-white-small.png" width="288" height="68" />
+      </div>
+      <div class="spacer"></div>
+      <app-menu [isSoftwareSelected]="true"></app-menu>
+    </div>
+  </div>
+  <div class="d-flex flex-column w-75 p-5">
+    <h3 class="fw-bold align-self-center text-accent">DOPAMINE F.A.Q.</h3>
+    <p class="mt-5">
+      This page provides an answer to some frequently asked questions.
+    </p>
+    <h4 class="text-accent mt-3">Why did you create Dopamine?</h4>
+    <p>
+      There are a lot of audio players out there. Most of them have much more
+      features and are much more configurable than Dopamine. But that is exactly
+      what bothered me: I want to listen to music, not spend time configuring my
+      music player. So, Dopamine has one simple purpose: fire it up and play in
+      and easy, clear and beautiful way.
+    </p>
+    <h4 class="text-accent mt-3">What does "Dopamine" mean?</h4>
+    <p>
+      "Dopamine" is a chemical in your body which transmits signals in the parts
+      of your brain that are related to rewards, motivation and pleasure.
+      Whenever you perform some activity that makes you feel good, that's
+      Dopamine being released in some parts of your brain. When you listen to
+      music you enjoy and it makes you feel good: that's Dopamine!
+    </p>
+    <h4 class="text-accent mt-3">
+      Why are some of my songs not grouped in one album?
+    </h4>
+    <p>
+      First, you must understand this: once audio files have been extracted from
+      a record or CD, there exists no such thing as an
+      <strong>Album</strong> anymore. You just have a bunch of loose audio
+      files, containing correct or incorrect metadata (also called
+      <strong>tags</strong>) about where these files were extracted from. As a
+      result of this, software audio players need to use some
+      <strong>artificial</strong>
+      way to define which audio files belong to a same album. The correctness of
+      the metadata influences how software audio players succeed in that task.
+    </p>
+    <p>
+      We'll take a closer look at 3 of these metadata tags:
+      <strong>Artist</strong>, <strong>Album artist</strong> and
+      <strong>Album title</strong>.
+    </p>
+    <p>
+      An audio file has 2 artist tags: <strong>Artist</strong> and
+      <strong>Album artist</strong>.
+    </p>
+    <ul>
+      <li><strong>Artist</strong>: the artist who performs the song</li>
+      <li>
+        <strong>Album artist</strong>: the common artist for the whole album
+      </li>
+    </ul>
+    <p>
+      For albums where all the songs are from the same artist, these 2 tags will
+      contain the same value: the artist who performs the song. For albums
+      containing songs from multiple artists (also called
+      <strong>compilation</strong> albums), the value in these 2 tags can be
+      different.
+    </p>
+    <p>
+      Furthermore, a song also has a tag <strong>Album title</strong>, which is
+      the title of the album.
+    </p>
+    <p>
+      Dopamine organizes albums based on a song's
+      <strong>Album title</strong> and <strong>Album artist</strong>. All songs
+      which have a same <strong>Album title</strong> AND a same
+      <strong>Album artist</strong>, are considered to be part of the same
+      album: they will appear under the same cover in the Albums views in
+      Dopamine.
+    </p>
+    <p>
+      People are so confused by compilation albums. From lots of e-mails I
+      received, I've come to the conclusion that most audio files from
+      compilation albums are incorrectly tagged. Most of them have an incorrect
+      value in the tag <strong>Album artist</strong>, namely: the artist who
+      performs the song. In such case, Dopamine considers these songs as part of
+      a different album.
+    </p>
+    <p>To resolve this, tag your files correctly:</p>
+    <ul>
+      <li><strong>Artist</strong>: the artist who performs the song</li>
+      <li>
+        <strong>Album artist</strong>: some common artist name (e.g. "Various
+        artists")
+      </li>
+    </ul>
+    <p>You can use Dopamine's built-in tag editor to correct this.</p>
+    <h4 class="text-accent mt-3">Where are the log files?</h4>
+    <p>
+      Log files are stored in your user directory, in this folder:
+      <strong>%appdata%\Dopamine\Log</strong>. Copy and paste this in Windows
+      Explorer and the folder containing the log files will be opened. If you
+      press the keyboard shortcut [CTRL]+[L] when inside Dopamine, the folder
+      containing the log files also opens. When you report an issue to me,
+      always include the log file, as I can't see what is happening on your
+      computer.
+    </p>
+    <h4 class="text-accent mt-3">How do I submit a bug?</h4>
+    <p>
+      Software doesn't always react the same way for all users. When you
+      experience unexpected behavior, your bug report needs to give me all
+      details necessary to reproduce this issue on my computer. It's simple:
+      what can't be reproduced, won't be fixed. Example:
+    </p>
+    <p class="fw-bold">WRONG 🙁</p>
+    <p>"Lyrics don't work!"</p>
+    <p>"Covers don't show!"</p>
+    <p>"Dopamine crashes!"</p>
+    <p>"M4a files don't work!"</p>
+    <p class="fw-bold">RIGHT 🙂</p>
+    <ul>
+      <li>
+        Send the log file (Pressing CTRL+L inside Dopamine will help you find
+        it)
+      </li>
+      <li>Describe the problem</li>
+      <li>
+        Describe the exact steps you performed before the problem occurred
+      </li>
+      <li>
+        If Dopamine has problems indexing specific files, please attach one or
+        some of those files to the bug report (rename them to .zip to allow
+        attaching to the bug report).
+      </li>
+    </ul>
+    <h4 class="text-accent mt-3">Why wasn't my suggestion accepted?</h4>
+    <p>
+      I'm open to all suggestions and I'm grateful for all the help I'm getting.
+      A lot of suggestions are very constructive and useful and have been added
+      to Dopamine at some point, or are planned to be added later.
+      Unfortunately, not every suggestion fits in the idea that I have for
+      Dopamine. So some of them will be refused.
+    </p>
+    <p>Thank you for understanding that.</p>
+    <h4 class="text-accent mt-3">
+      Why is Dopamine flagged as suspicious by my Anti-Virus?
+    </h4>
+    <p>
+      Most (if not all) Anti-Virus software has a Heuristic scan engine. A
+      heuristic scan engine analyzes software for specific behavior. Some types
+      of behavior are automatically flagged as suspicious, even if the
+      application isn't doing anything suspicious. Even worse, some heuristic
+      scan engines flag software as a potential threat, just because that
+      software isn't well known.
+    </p>
+    <p>
+      Dopamine is scanned by
+      <a href="https://www.virustotal.com">Virustotal</a> before each release.
+      It usually has a detection rate of 2/57, which means that 2 on 57
+      Anti-Virus software flag Dopamine as a potential threat. These Anti-Virus
+      software flag Dopamine regularly: 360 Total Security, Avast. In 1 case,
+      Symantec also flagged Dopamine. These are false positives. I invite you to
+      read this blog post about this problem. I couldn't have explained it
+      better:
+      <a
+        href="http://blog.nirsoft.net/2009/05/17/antivirus-companies-cause-a-big-headache-to-small-developers/"
+        >Antivirus companies cause a big headache to small developers</a
+      >
+    </p>
+    <h4 class="text-accent mt-3">
+      What is Search Online, and how do I customize it?
+    </h4>
+    <p>
+      Search online allows you to search for information in your default web
+      browser, based on song information from Dopamine. Some default search
+      providers are pre-configured for you. You can however add more if you wish
+      to.
+    </p>
+    <p>
+      When adding a search provider, you'll be asked for 3 parameters:
+      <strong>Name</strong> (mandatory), <strong>Url</strong> (mandatory) and
+      <strong>Separator</strong> (optional). You can find Url and Separator by
+      browsing to the website of that search provider and by performing a
+      search. E.g. if you go to
+      <a href="https://www.youtube.com/">www.youtube.com</a> and search for "30
+      Seconds to Mars Echelon", the url in your browser becomes
+      <strong
+        >https://www.youtube.com/results?search_query=30+Seconds+to+Mars+Echelon</strong
+      >
+    </p>
+    <p>These are the pieces that you need:</p>
+    <ul>
+      <li>
+        <strong>Url</strong>: https://www.youtube.com/results?search_query=
+      </li>
+      <li><strong>Separator</strong>: +</li>
+    </ul>
+    <p>
+      If you don't provide a separator, Dopamine will automatically use a space,
+      which usually works as well as a separator.
+    </p>
+    <h4 class="text-accent mt-3">What is "Follow the playing song"?</h4>
+    <p>
+      When a song starts playing, it is automatically highlighted in the list of
+      songs. When "Follow the playing song" is enabled, Dopamine automatically
+      scrolls to the song that starts playing. That is especially useful when
+      shuffle is enabled, and the next song that starts playing is in a part of
+      the list that is not visible.
+    </p>
+  </div>
+  <div class="spacer"></div>
+  <app-footer class="w-100"></app-footer>
+</div>
