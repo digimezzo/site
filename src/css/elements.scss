@@ -7,3 +7,10 @@
 .spacer {
   flex: 1;
 }
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit !important;
+}
