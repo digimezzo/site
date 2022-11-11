@@ -6,7 +6,7 @@
       'text-white': !this.isHomeSelected
     }"
     role="button"
-    (click)="this.navigateToHome()"
+    routerLink="/home"
   >
     HOME
   </div>
@@ -17,7 +17,7 @@
       'text-white': !this.isSoftwareSelected
     }"
     role="button"
-    (click)="this.navigateToSoftware()"
+    routerLink="/software"
   >
     SOFTWARE
   </div>
@@ -28,7 +28,7 @@
       'text-white': !this.isDonateSelected
     }"
     role="button"
-    (click)="this.navigateToDonate()"
+    routerLink="/donate"
   >
     DONATE
   </div>
@@ -39,7 +39,7 @@
       'text-white': !this.isContactSelected
     }"
     role="button"
-    (click)="this.navigateToContact()"
+    routerLink="/contact"
   >
     CONTACT
   </div>

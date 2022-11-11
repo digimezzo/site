@@ -1,5 +1,4 @@
 import { Component, Input } from "@angular/core";
-import { Router } from "@angular/router";
 
 @Component({
   selector: "app-menu",
@@ -7,7 +6,7 @@ import { Router } from "@angular/router";
   styleUrls: ["./menu.component.scss"],
 })
 export class MenuComponent {
-  public constructor(private router: Router) {}
+  public constructor() {}
 
   @Input()
   public isHomeSelected: boolean = false;
@@ -20,20 +19,4 @@ export class MenuComponent {
 
   @Input()
   public isContactSelected: boolean = false;
-
-  public navigateToHome(): void {
-    this.router.navigateByUrl("/home");
-  }
-
-  public navigateToSoftware(): void {
-    this.router.navigateByUrl("/software");
-  }
-
-  public navigateToDonate(): void {
-    this.router.navigateByUrl("/donate");
-  }
-
-  public navigateToContact(): void {
-    this.router.navigateByUrl("/contact");
-  }
 }
