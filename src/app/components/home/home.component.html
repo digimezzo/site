@@ -1,6 +1,8 @@
 <div class="d-flex flex-column w-100 min-vh-100 align-items-center">
   <div class="home-header d-flex w-100 flex-column">
-    <div class="h-25 w-100 d-flex w-100 justify-content-end p-4">
+    <div class="h-25 w-100 d-flex p-4">
+      <app-social-media-links></app-social-media-links>
+      <div class="spacer"></div>
       <!-- <app-menu></app-menu> -->
     </div>
     <div
@@ -10,9 +12,7 @@
     </div>
     <div
       class="h-25 w-100 d-flex w-100 align-items-center justify-content-center"
-    >
-      test
-    </div>
+    ></div>
   </div>
   <div class="mt-5 mb-2 text-center w-75">
     With DigimezZo, we bring you a digital intermezzo filled with user friendly
@@ -45,22 +45,5 @@
     </div>
   </div>
   <div class="spacer"></div>
-  <div
-    class="site-footer w-100 text-center d-flex align-items-center justify-content-center"
-  >
-    <a href="https://twitter.com/digimezzo"
-      ><i
-        class="lab la-twitter la-2x mx-2"
-        role="button"
-        title="Keep updated!"
-      ></i
-    ></a>
-    <a href="https://github.com/digimezzo">
-      <i
-        class="lab la-github la-2x mx-2"
-        role="button"
-        title="Bug reports, feature requests and source code."
-      ></i
-    ></a>
-  </div>
+  <app-footer class="w-100"></app-footer>
 </div>
