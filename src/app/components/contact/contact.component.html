@@ -1,10 +1,36 @@
 <div class="d-flex flex-column w-100 min-vh-100 align-items-center">
   <div class="page-header d-flex w-100 flex-column">
     <div class="h-100 w-100 d-flex p-4">
-      <img src="assets/images/logo-white-small.png" />
+      <div class="h-100 d-flex align-items-center">
+        <img src="assets/images/logo-white-small.png" width="288" height="68" />
+      </div>
       <div class="spacer"></div>
       <app-menu [isContactSelected]="true"></app-menu>
     </div>
+  </div>
+  <div class="d-flex flex-column w-75 p-5">
+    <h3 class="fw-bold align-self-center text-accent">CONTACT</h3>
+    <p class="mt-5">Hi!</p>
+    <p>Thank you for trying to reach out!</p>
+    <ul>
+      <li>
+        For questions or to keep updated, please visit Twitter:
+        <a href="https://twitter.com/digimezzo" class="text-accent"
+          >twitter.com/digimezzo</a
+        >
+      </li>
+      <li>
+        For problems with the software or for feature requests, please visit
+        GitHub:
+        <a href="https://github.com/digimezzo" class="text-accent"
+          >github.com/digimezzo</a
+        >
+      </li>
+    </ul>
+    <p>Best regards,</p>
+    <p>
+      <a href="https://twitter.com/digimezzo" class="text-accent">@digimezzo</a>
+    </p>
   </div>
   <div class="spacer"></div>
   <app-footer class="w-100"></app-footer>

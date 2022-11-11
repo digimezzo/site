@@ -1,10 +1,28 @@
 <div class="d-flex flex-column w-100 min-vh-100 align-items-center">
   <div class="page-header d-flex w-100 flex-column">
     <div class="h-100 w-100 d-flex p-4">
-      <img src="assets/images/logo-white-small.png" />
+      <div class="h-100 d-flex align-items-center">
+        <img src="assets/images/logo-white-small.png" width="288" height="68" />
+      </div>
       <div class="spacer"></div>
       <app-menu [isDonateSelected]="true"></app-menu>
     </div>
+  </div>
+  <div class="d-flex flex-column w-75 p-5">
+    <h3 class="fw-bold align-self-center text-accent">DONATE</h3>
+    <p class="mt-5">
+      The software on this website is free to use and redistribute in its
+      original form. However, if you wish to show your appreciation for the time
+      and effort put into creating it, you can donate by using
+      <a
+        href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MQALEWTEZ7HX8"
+        class="text-accent"
+        >Paypal</a
+      >
+      or by buying me a
+      <a href="https://ko-fi.com/S6S11K63U" class="text-accent">coffee</a>.
+      Thank you!
+    </p>
   </div>
   <div class="spacer"></div>
   <app-footer class="w-100"></app-footer>
