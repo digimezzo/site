@@ -1,14 +1,14 @@
 <div class="d-flex flex-column w-100 min-vh-100 align-items-center">
   <div
-    class="home-header d-flex w-100 flex-row align-items-center justify-content-center"
+    class="home-header d-flex w-100 flex-column align-items-center justify-content-center"
   >
-    <div class="home-logo"></div>
+    <img class="home-logo-image" src="assets/images/logo-white-large.png" />
   </div>
-  <div class="mt-5 mb-2 text-center">
+  <div class="mt-5 mb-2 text-center w-75">
     With DigimezZo, we bring you a digital intermezzo filled with user friendly
     apps and software.
   </div>
-  <div class="mt-2 text-center">Enjoy you digital intermezzo!</div>
+  <div class="mt-2 text-center w-75">Enjoy you digital intermezzo!</div>
   <div class="home-showcase my-5">
     <div class="home-showcase__item m-5">
       <img src="assets/images/dopamine3-logo.png" width="100" height="100" />
@@ -38,6 +38,6 @@
   <div
     class="site-footer w-100 text-center d-flex align-items-center justify-content-center"
   >
-    Copyright DigimezZo © 2014
+    {{ this.copyright }}
   </div>
 </div>
