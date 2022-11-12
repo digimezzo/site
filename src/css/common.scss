@@ -18,3 +18,22 @@
     padding: 24px;
   }
 }
+
+.page-logo-image {
+  width: 288px;
+  height: 68px;
+}
+
+@media screen and (max-width: 800px) {
+  .page-logo-image {
+    width: 144px;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .page-logo-image {
+    width: 288px;
+    height: 68px;
+  }
+}
