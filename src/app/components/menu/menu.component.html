@@ -1,4 +1,71 @@
-<div class="d-flex flex-row">
+<ng-template #content let-offcanvas>
+  <div class="offcanvas-header">
+    <div class="spacer"></div>
+    <i
+      class="las la-times la-2x text-white"
+      role="button"
+      (click)="offcanvas.dismiss()"
+    ></i>
+  </div>
+  <div class="offcanvas-body">
+    <div class="d-flex flex-column">
+      <div
+        class="fw-bold m-2"
+        [ngClass]="{
+          'text-accent': this.isHomeSelected,
+          'text-white': !this.isHomeSelected
+        }"
+        role="button"
+        routerLink="/home"
+        skipLocationChange
+        (click)="offcanvas.dismiss()"
+      >
+        HOME
+      </div>
+      <div
+        class="fw-bold m-2"
+        [ngClass]="{
+          'text-accent': this.isSoftwareSelected,
+          'text-white': !this.isSoftwareSelected
+        }"
+        role="button"
+        routerLink="/software"
+        skipLocationChange
+        (click)="offcanvas.dismiss()"
+      >
+        SOFTWARE
+      </div>
+      <div
+        class="fw-bold m-2"
+        [ngClass]="{
+          'text-accent': this.isDonateSelected,
+          'text-white': !this.isDonateSelected
+        }"
+        role="button"
+        routerLink="/donate"
+        skipLocationChange
+        (click)="offcanvas.dismiss()"
+      >
+        DONATE
+      </div>
+      <div
+        class="fw-bold m-2"
+        [ngClass]="{
+          'text-accent': this.isContactSelected,
+          'text-white': !this.isContactSelected
+        }"
+        role="button"
+        routerLink="/contact"
+        skipLocationChange
+        (click)="offcanvas.dismiss()"
+      >
+        CONTACT
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<div class="horizontal-menu d-flex flex-row">
   <div
     class="fw-bold mx-4"
     [ngClass]="{
@@ -47,4 +114,7 @@
   >
     CONTACT
   </div>
+</div>
+<div class="hamburger-menu" (click)="open(content)">
+  <i class="las la-bars la-2x text-white" role="button"></i>
 </div>

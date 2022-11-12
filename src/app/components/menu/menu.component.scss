@@ -1,0 +1,27 @@
+.horizontal-menu {
+  visibility: visible;
+}
+
+.hamburger-menu {
+  visibility: collapse;
+}
+
+@media screen and (max-width: 700px) {
+  .horizontal-menu {
+    visibility: collapse;
+    width: 0px;
+    height: 0px;
+  }
+
+  .hamburger-menu {
+    visibility: visible;
+  }
+}
+
+.offcanvas-header {
+  background-color: #026cfe;
+}
+
+.offcanvas-body {
+  background-color: #333333;
+}
