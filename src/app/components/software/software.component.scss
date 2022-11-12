@@ -1,0 +1,10 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+  }
+}
