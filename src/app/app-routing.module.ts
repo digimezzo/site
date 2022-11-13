@@ -14,7 +14,6 @@ const routes: Routes = [
   { path: "software", component: SoftwareComponent },
   { path: "blog", component: BlogComponent },
   { path: "blog/post/:id", component: BlogPostComponent },
-  { path: "site/blog/post/:id", component: BlogPostComponent },
   { path: "donate", component: DonateComponent },
   { path: "contact", component: ContactComponent },
   { path: "dopamine-faq", component: DopamineFaqComponent },
