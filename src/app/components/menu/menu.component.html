@@ -36,6 +36,18 @@
       <div
         class="fw-bold m-2"
         [ngClass]="{
+          'text-accent': this.isBlogSelected,
+          'text-white': !this.isBlogSelected
+        }"
+        role="button"
+        routerLink="/blog"
+        (click)="offcanvas.dismiss()"
+      >
+        BLOG
+      </div>
+      <div
+        class="fw-bold m-2"
+        [ngClass]="{
           'text-accent': this.isDonateSelected,
           'text-white': !this.isDonateSelected
         }"
@@ -83,6 +95,17 @@
     routerLink="/software"
   >
     SOFTWARE
+  </div>
+  <div
+    class="fw-bold mx-4"
+    [ngClass]="{
+      'text-accent': this.isBlogSelected,
+      'text-white': !this.isBlogSelected
+    }"
+    role="button"
+    routerLink="/blog"
+  >
+    BLOG
   </div>
   <div
     class="fw-bold mx-4"

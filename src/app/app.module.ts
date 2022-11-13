@@ -1,8 +1,12 @@
+import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { MarkdownModule } from "ngx-markdown";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
+import { BlogPostComponent } from "./components/blog/blog-post/blog-post.component";
+import { BlogComponent } from "./components/blog/blog.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { DonateComponent } from "./components/donate/donate.component";
 import { DopamineFaqComponent } from "./components/dopamine-faq/dopamine-faq.component";
@@ -23,8 +27,16 @@ import { SoftwareComponent } from "./components/software/software.component";
     FooterComponent,
     SocialMediaLinkComponent,
     DopamineFaqComponent,
+    BlogComponent,
+    BlogPostComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
+    NgbModule,
+    MarkdownModule.forRoot({ loader: HttpClient }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

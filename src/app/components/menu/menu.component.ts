@@ -16,6 +16,9 @@ export class MenuComponent {
   public isSoftwareSelected: boolean = false;
 
   @Input()
+  public isBlogSelected: boolean = false;
+
+  @Input()
   public isDonateSelected: boolean = false;
 
   @Input()
