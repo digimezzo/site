@@ -25,6 +25,4 @@ Download [here](https://github.com/digimezzo/dopamine/releases/tag/v3.0.0-previe
 
 Enjoy!
 
-P.S.: if you enjoy Dopamine, please consider [donating](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MQALEWTEZ7HX8) or buying me a [coffee](https://ko-fi.com/S6S11K63U). Thank you so much!
-
-
+P.S.: if you enjoy Dopamine, please consider donating with [PayPal](https://www.paypal.com/donate/?hosted_button_id=N9Z4D62P24KRU) or buying me a [coffee](https://ko-fi.com/S6S11K63U). Thank you so much!
