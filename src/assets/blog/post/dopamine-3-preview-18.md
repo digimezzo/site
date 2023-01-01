@@ -4,7 +4,7 @@ Hello everyone! I hope you had an amazing weekend! Mine was rather busy. Aside f
 
 This is the change log:
 
-**Fixed**
+### Fixed
 
 - Fixed a bug where files which previously failed to index were not re-indexed on the next attempt
 - Fixed indexing of some OGG files
