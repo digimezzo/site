@@ -1,3 +1,7 @@
+## [Knowte 3.0.0](/site/blog/post/knowte-3.0.0)
+
+Posted by [@digimezzo](https://twitter.com/digimezzo) on April 28, 2023
+
 ## [Dopamine 3 Preview 19](/site/blog/post/dopamine-3-preview-19)
 
 Posted by [@digimezzo](https://twitter.com/digimezzo) on January 1, 2023
