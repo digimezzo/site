@@ -1,3 +1,7 @@
+## [Dopamine 3 Preview 22](/site/blog/post/dopamine-3-preview-22)
+
+Posted by [@digimezzo](https://twitter.com/digimezzo) on December 29, 2023
+
 ## [Dopamine 3 Preview 21](/site/blog/post/dopamine-3-preview-21)
 
 Posted by [@digimezzo](https://twitter.com/digimezzo) on November 9, 2023
