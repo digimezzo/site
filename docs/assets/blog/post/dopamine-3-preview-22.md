@@ -31,7 +31,7 @@ This is the change log:
 -   Improved UI responsiveness during indexing
 -   A lot of UI problems
 
-Download [here](https://github.com/digimezzo/dopamine/releases/tag/v3.0.0-preview22).
+Download [here](https://github.com/digimezzo/dopamine/releases/tag/v3.0.0-preview.22).
 
 Enjoy!
 

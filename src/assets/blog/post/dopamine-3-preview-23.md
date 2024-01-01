@@ -27,7 +27,7 @@ This is the change log:
 -   It should be possible to also delete configuration data when uninstalling Dopamine
 -   Scroll bars appear in unexpected places when window is too small
 
-Download [here](https://github.com/digimezzo/dopamine/releases/tag/v3.0.0-preview23).
+Download [here](https://github.com/digimezzo/dopamine/releases/tag/v3.0.0-preview.23).
 
 Enjoy!
 
