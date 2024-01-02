@@ -1,4 +1,4 @@
-## [Dopamine 3 Preview 23](/site/blog/post/dopamine-3-preview-22)
+## [Dopamine 3 Preview 23](/site/blog/post/dopamine-3-preview-23)
 
 Posted by [@digimezzo](https://twitter.com/digimezzo) on January 1, 2024
 
