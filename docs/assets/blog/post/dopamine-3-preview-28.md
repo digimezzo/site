@@ -11,7 +11,6 @@ Hello world! Dopamine 3 Preview 28 is here! This is the change log:
 
 -   Improved loop one button
 
-
 Download [here](https://github.com/digimezzo/dopamine/releases/tag/v3.0.0-preview.28).
 
 Enjoy!
