@@ -1,3 +1,7 @@
+## [Dopamine 3 Preview 35](/site/blog/post/dopamine-3-preview-35)
+
+Posted by [digimezzo](https://github.com/digimezzo/) on October 21, 2024
+
 ## [Dopamine 3 Preview 34](/site/blog/post/dopamine-3-preview-34)
 
 Posted by [digimezzo](https://github.com/digimezzo/) on September 21, 2024
