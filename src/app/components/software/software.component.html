@@ -1,202 +1,233 @@
 <div class="d-flex flex-column w-100 min-vh-100 align-items-center">
-  <div class="page-header d-flex w-100 flex-column">
-    <div class="h-100 w-100 d-flex p-4">
-      <div class="h-100 d-flex align-items-center">
-        <img class="page-logo-image" src="assets/images/logo-white-small.png" />
-      </div>
-      <div class="spacer"></div>
-      <app-menu [isSoftwareSelected]="true"></app-menu>
-    </div>
-  </div>
-  <div class="page-content">
-    <h1 class="align-self-center">Software</h1>
-    <p class="mt-5">
-      You're on the right page if you're looking for download links. Did you see
-      that there is only one and real download button for each program? How cool
-      is that!
-    </p>
-    <div class="d-flex flex-column mt-5">
-      <!-- Dopamine 3 -->
-      <div class="d-flex flex-row bg-light m-3">
-        <div class="p-2">
-          <img
-            src="assets/images/dopamine3-logo.png"
-            width="100"
-            height="100"
-          />
-        </div>
-        <div class="d-flex flex-column p-2">
-          <p class="text-dopamine3 fw-bold">
-            Dopamine 3 (Windows, GNU/Linux, Mac)
-          </p>
-          <p>
-            Dopamine is an audio player which tries to make organizing and
-            listening to music as simple and pretty as possible.
-          </p>
-          <div class="button-container">
-            <a
-              href="https://github.com/digimezzo/dopamine/releases"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-dopamine3 px-2 py-1 rounded"
-              >
-                Download
-              </div></a
-            >
-
-            <a
-              href="https://github.com/digimezzo/dopamine"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-dopamine3 px-2 py-1 rounded"
-              >
-                Sources
-              </div></a
-            >
-            <div
-              role="button"
-              class="text-white text-center bg-dopamine3 px-2 py-1 rounded me-2 mt-2"
-              routerLink="/dopamine-faq"
-            >
-              F.A.Q.
+    <div class="page-header d-flex w-100 flex-column">
+        <div class="h-100 w-100 d-flex p-4">
+            <div class="h-100 d-flex align-items-center">
+                <img class="page-logo-image" src="assets/images/logo-white-small.png"/>
             </div>
-          </div>
+            <div class="spacer"></div>
+            <app-menu [isSoftwareSelected]="true"></app-menu>
         </div>
-      </div>
-      <!-- Dopamine 2 -->
-      <div class="d-flex flex-row m-3">
-        <div class="p-2">
-          <img
-            src="assets/images/dopamine2-logo.png"
-            width="100"
-            height="100"
-          />
-        </div>
-        <div class="d-flex flex-column p-2">
-          <p class="text-dopamine2 fw-bold">Dopamine 2 (Windows)</p>
-          <p>
-            Dopamine is an audio player which tries to make organizing and
-            listening to music as simple and pretty as possible.
-          </p>
-          <p>
-            This software uses code of
-            <a href="http://ffmpeg.org/" class="text-dopamine2">FFmpeg</a>
-            licensed under the
-            <a
-              href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
-              class="text-dopamine2"
-              >LGPLv2.1</a
-            >
-            and its source can be downloaded
-            <a href="https://github.com/FFmpeg/FFmpeg" class="text-dopamine2"
-              >here</a
-            >.
-          </p>
-          <div class="button-container">
-            <a
-              href="https://github.com/digimezzo/dopamine-windows/releases"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-dopamine2 px-2 py-1 rounded"
-              >
-                Download
-              </div></a
-            >
-
-            <a
-              href="https://github.com/digimezzo/dopamine-windows"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-dopamine2 px-2 py-1 rounded"
-              >
-                Sources
-              </div></a
-            >
-            <div
-              role="button"
-              class="text-white text-center bg-dopamine2 px-2 py-1 rounded me-2 mt-2"
-              routerLink="/dopamine-faq"
-            >
-              F.A.Q.
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Knowte -->
-      <div class="d-flex flex-row m-3 bg-light">
-        <div class="p-2">
-          <img src="assets/images/knowte-logo.png" width="100" height="100" />
-        </div>
-        <div class="d-flex flex-column p-2">
-          <p class="text-knowte fw-bold">Knowte (Windows, GNU/Linux, Mac)</p>
-          <p>
-            Knowte is a note taking application that
-            allows you to quickly and easily organize and find your notes.
-          </p>
-          <div class="button-container">
-            <a
-              href="https://github.com/digimezzo/knowte/releases"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-knowte px-2 py-1 rounded"
-              >
-                Download
-              </div></a
-            >
-
-            <a
-              href="https://github.com/digimezzo/knowte"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-knowte px-2 py-1 rounded"
-              >
-                Sources
-              </div></a
-            >
-          </div>
-        </div>
-      </div>
-      <!-- Vitomu -->
-      <div class="d-flex flex-row m-3">
-        <div class="p-2">
-          <img src="assets/images/vitomu-logo.png" width="100" height="100" />
-        </div>
-        <div class="d-flex flex-column p-2">
-          <p class="text-vitomu fw-bold">Vitomu (Windows, GNU/Linux)</p>
-          <p>Easy to use video to music converter.</p>
-          <div class="button-container">
-            <a
-              href="https://github.com/digimezzo/vitomu/releases"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-vitomu px-2 py-1 rounded"
-              >
-                Download
-              </div></a
-            >
-
-            <a
-              href="https://github.com/digimezzo/vitomu"
-              class="text-decoration-none me-2 mt-2"
-              ><div
-                role="button"
-                class="text-white text-center bg-vitomu px-2 py-1 rounded"
-              >
-                Sources
-              </div></a
-            >
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="spacer"></div>
-  <app-footer class="w-100"></app-footer>
+    <div class="page-content">
+        <h1 class="align-self-center">Software</h1>
+        <p class="mt-5">
+            You're on the right page if you're looking for download links. Did you see
+            that there is only one and real download button for each program? How cool
+            is that!
+        </p>
+        <div class="d-flex flex-column mt-5">
+            <!-- Dopamine 3 -->
+            <div class="d-flex flex-row bg-light m-3">
+                <div class="p-2">
+                    <img
+                            src="assets/images/dopamine3-logo.png"
+                            width="100"
+                            height="100"
+                    />
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <p class="text-dopamine3 fw-bold">
+                        Dopamine 3 (Windows, GNU/Linux, Mac)
+                    </p>
+                    <p>
+                        Dopamine is an audio player which tries to make organizing and
+                        listening to music as simple and pretty as possible.
+                    </p>
+                    <div class="button-container">
+                        <a
+                                href="https://github.com/digimezzo/dopamine/releases"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-dopamine3 px-2 py-1 rounded"
+                            >
+                                Download
+                            </div>
+                        </a
+                        >
+
+                        <a
+                                href="https://github.com/digimezzo/dopamine"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-dopamine3 px-2 py-1 rounded"
+                            >
+                                Sources
+                            </div>
+                        </a
+                        >
+                        <div
+                                role="button"
+                                class="text-white text-center bg-dopamine3 px-2 py-1 rounded me-2 mt-2"
+                                routerLink="/dopamine-faq"
+                        >
+                            F.A.Q.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dopamine 2 -->
+            <div class="d-flex flex-row m-3">
+                <div class="p-2">
+                    <img
+                            src="assets/images/dopamine2-logo.png"
+                            width="100"
+                            height="100"
+                    />
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <p class="text-dopamine2 fw-bold">Dopamine 2 (Windows)</p>
+                    <p>
+                        Dopamine is an audio player which tries to make organizing and
+                        listening to music as simple and pretty as possible.
+                    </p>
+                    <p>
+                        This software uses code of
+                        <a href="http://ffmpeg.org/" class="text-dopamine2">FFmpeg</a>
+                        licensed under the
+                        <a
+                                href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+                                class="text-dopamine2"
+                        >LGPLv2.1</a
+                        >
+                        and its source can be downloaded
+                        <a href="https://github.com/FFmpeg/FFmpeg" class="text-dopamine2"
+                        >here</a
+                        >.
+                    </p>
+                    <p>
+                        A huge thanks to <a href="https://github.com/GeorgeTheocharis4">Theocharis Georgios</a> for writing the documentation from scratch!
+                    </p>
+                    <div class="button-container">
+                        <a
+                                href="https://github.com/digimezzo/dopamine-windows/releases"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-dopamine2 px-2 py-1 rounded"
+                            >
+                                Download
+                            </div>
+                        </a
+                        >
+
+                        <a
+                                href="https://github.com/digimezzo/dopamine-windows"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-dopamine2 px-2 py-1 rounded"
+                            >
+                                Sources
+                            </div>
+                        </a
+                        >
+                        <div
+                                role="button"
+                                class="text-white text-center bg-dopamine2 px-2 py-1 rounded me-2 mt-2"
+                                routerLink="/dopamine-faq"
+                        >
+                            F.A.Q.
+                        </div>
+                        <a
+                                href="https://github.com/digimezzo/dopamine-windows/blob/master/Dopamine%202%20Documentation.pdf"
+                                class="text-decoration-none me-2 mt-2"
+                                target="_blank"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-dopamine2 px-2 py-1 rounded"
+                            >
+                                Documentation
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Knowte -->
+            <div class="d-flex flex-row m-3 bg-light">
+                <div class="p-2">
+                    <img src="assets/images/knowte-logo.png" width="100" height="100"/>
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <p class="text-knowte fw-bold">Knowte (Windows, GNU/Linux, Mac)</p>
+                    <p>
+                        Knowte is a note taking application that
+                        allows you to quickly and easily organize and find your notes.
+                    </p>
+                    <div class="button-container">
+                        <a
+                                href="https://github.com/digimezzo/knowte/releases"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-knowte px-2 py-1 rounded"
+                            >
+                                Download
+                            </div>
+                        </a
+                        >
+
+                        <a
+                                href="https://github.com/digimezzo/knowte"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-knowte px-2 py-1 rounded"
+                            >
+                                Sources
+                            </div>
+                        </a
+                        >
+                    </div>
+                </div>
+            </div>
+            <!-- Vitomu -->
+            <div class="d-flex flex-row m-3">
+                <div class="p-2">
+                    <img src="assets/images/vitomu-logo.png" width="100" height="100"/>
+                </div>
+                <div class="d-flex flex-column p-2">
+                    <p class="text-vitomu fw-bold">Vitomu (Windows, GNU/Linux)</p>
+                    <p>Easy to use video to music converter.</p>
+                    <div class="button-container">
+                        <a
+                                href="https://github.com/digimezzo/vitomu/releases"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-vitomu px-2 py-1 rounded"
+                            >
+                                Download
+                            </div>
+                        </a
+                        >
+
+                        <a
+                                href="https://github.com/digimezzo/vitomu"
+                                class="text-decoration-none me-2 mt-2"
+                        >
+                            <div
+                                    role="button"
+                                    class="text-white text-center bg-vitomu px-2 py-1 rounded"
+                            >
+                                Sources
+                            </div>
+                        </a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <app-footer class="w-100"></app-footer>
 </div>
