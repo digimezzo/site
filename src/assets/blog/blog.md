@@ -1,4 +1,4 @@
-## [Dopamine 3 Preview 38](/site/blog/post/dopamine-3-preview-37)
+## [Dopamine 3 Preview 38](/site/blog/post/dopamine-3-preview-38)
 
 Posted by [digimezzo](https://github.com/digimezzo/) on May 29, 2025
 
