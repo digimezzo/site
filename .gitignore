@@ -7,3 +7,4 @@ release/
 coverage/
 package-lock.json
 /.idea/
+*/.idea/
