@@ -1,3 +1,7 @@
+## [Dopamine 3 Preview 40](/site/blog/post/dopamine-3-preview-40)
+
+Posted by [digimezzo](https://github.com/digimezzo/) on October 2, 2025
+
 ## [Knowte 3.0.1](/site/blog/post/knowte-3.0.1)
 
 Posted by [digimezzo](https://github.com/digimezzo/) on August 4, 2025
