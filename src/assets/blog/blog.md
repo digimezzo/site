@@ -1,3 +1,7 @@
+## [Dopamine 3 Release](/site/blog/post/dopamine-3-preview-40)
+
+Posted by [digimezzo](https://github.com/digimezzo/) on November 6, 2025
+
 ## [Dopamine 3 Preview 40](/site/blog/post/dopamine-3-preview-40)
 
 Posted by [digimezzo](https://github.com/digimezzo/) on October 2, 2025
