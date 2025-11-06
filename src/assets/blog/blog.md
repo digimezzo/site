@@ -1,4 +1,4 @@
-## [Dopamine 3 Release](/site/blog/post/dopamine-3-preview-40)
+## [Dopamine 3 Release](/site/blog/post/dopamine-3.0.0)
 
 Posted by [digimezzo](https://github.com/digimezzo/) on November 6, 2025
 
