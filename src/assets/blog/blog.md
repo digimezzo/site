@@ -1,3 +1,7 @@
+## [Dopamine 3.0.4](/site/blog/post/dopamine-3.0.4)
+
+Posted by [digimezzo](https://github.com/digimezzo/) on April 6, 2026
+
 ## [Dopamine 3.0.3](/site/blog/post/dopamine-3.0.3)
 
 Posted by [digimezzo](https://github.com/digimezzo/) on March 30, 2026
