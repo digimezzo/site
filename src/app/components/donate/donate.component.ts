@@ -12,13 +12,13 @@ const SOFTWARE_CONFIGS: { [key: string]: SoftwareConfig } = {
     name: "Dopamine",
     title: "Support Dopamine",
     description:
-      "Dopamine started as a small side project and has grown thanks to people like you using it. I work on it in my spare time, evenings and weekends, to keep it fast, simple, and free for everyone. If it's part of your daily music routine and you'd like to support its development, you can make a small donation via PayPal or Ko-fi. It really means a lot.",
+      "If you enjoy Dopamine and would like to support its development, you can optionally send me a donation. The software remains completely free and there are no benefits or services attached to donating. Thank you.",
   },
   knowte: {
     name: "Knowte",
     title: "Support Knowte",
     description:
-      "Knowte started as a small side project and has grown thanks to people like you using it. I work on it in my spare time, evenings and weekends, to keep it fast, simple, and free for everyone. If it's part of your daily note-taking routine and you'd like to support its development, you can make a small donation via PayPal or Ko-fi. It really means a lot.",
+      "If you enjoy Knowte and would like to support its development, you can optionally send me a donation. The software remains completely free and there are no benefits or services attached to donating. Thank you.",
   },
 };
 
@@ -26,7 +26,7 @@ const DEFAULT_CONFIG: SoftwareConfig = {
   name: "Default",
   title: "Donate",
   description:
-    "This software started as a small side project and has grown thanks to people like you using it. I work on it in my spare time, evenings and weekends, to keep it fast, simple, and free for everyone. If it's part of your daily note-taking routine and you'd like to support its development, you can make a small donation via PayPal or Ko-fi. It really means a lot.",
+    "If you enjoy the project and would like to support its development, you can optionally send me a donation. The software remains completely free and there are no benefits or services attached to donating. Thank you.",
 };
 
 @Component({
