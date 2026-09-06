@@ -20,6 +20,12 @@ const SOFTWARE_CONFIGS: { [key: string]: SoftwareConfig } = {
     description:
       "Enjoying Knowte? If you'd like to support its continued development, you can leave a donation. Every contribution is greatly appreciated!",
   },
+  vitomu: {
+    name: "Vitomu",
+    title: "Support Vitomu",
+    description:
+      "Enjoying Vitomu? If you'd like to support its continued development, you can leave a donation. Every contribution is greatly appreciated!",
+  },
 };
 
 const DEFAULT_CONFIG: SoftwareConfig = {
