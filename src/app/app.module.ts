@@ -12,6 +12,7 @@ import { DonateComponent } from "./components/donate/donate.component";
 import { DopamineFaqComponent } from "./components/dopamine-faq/dopamine-faq.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { HomeComponent } from "./components/home/home.component";
+import { MeComponent } from "./components/me/me.component";
 import { MenuComponent } from "./components/menu/menu.component";
 import { SocialMediaLinkComponent } from "./components/social-media-links/social-media-links.component";
 import { SoftwareComponent } from "./components/software/software.component";
@@ -20,6 +21,7 @@ import { SoftwareComponent } from "./components/software/software.component";
   declarations: [
     AppComponent,
     HomeComponent,
+    MeComponent,
     SoftwareComponent,
     DonateComponent,
     ContactComponent,

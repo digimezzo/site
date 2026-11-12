@@ -1,0 +1,28 @@
+.me-introduction {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.me-photo {
+  width: 200px;
+  height: 200px;
+  flex: 0 0 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.me-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  color: #555555;
+}
+
+@media screen and (max-width: 700px) {
+  .me-introduction {
+    flex-direction: column;
+    align-items: center;
+  }
+}

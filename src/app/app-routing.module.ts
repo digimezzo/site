@@ -6,11 +6,13 @@ import { ContactComponent } from "./components/contact/contact.component";
 import { DonateComponent } from "./components/donate/donate.component";
 import { DopamineFaqComponent } from "./components/dopamine-faq/dopamine-faq.component";
 import { HomeComponent } from "./components/home/home.component";
+import { MeComponent } from "./components/me/me.component";
 import { SoftwareComponent } from "./components/software/software.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "home", component: HomeComponent },
+  { path: "me", component: MeComponent },
   { path: "software", component: SoftwareComponent },
   { path: "blog", component: BlogComponent },
   { path: "blog/post/:id", component: BlogPostComponent },

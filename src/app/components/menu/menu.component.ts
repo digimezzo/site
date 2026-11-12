@@ -13,6 +13,9 @@ export class MenuComponent {
   public isHomeSelected: boolean = false;
 
   @Input()
+  public isMeSelected: boolean = false;
+
+  @Input()
   public isSoftwareSelected: boolean = false;
 
   @Input()

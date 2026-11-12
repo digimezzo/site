@@ -1,0 +1,49 @@
+<div class="d-flex flex-column w-100 min-vh-100 align-items-center">
+  <div class="page-header d-flex w-100 flex-column">
+    <div class="h-100 w-100 d-flex p-4">
+      <div class="h-100 d-flex align-items-center">
+        <img class="page-logo-image" src="assets/images/logo-white-small.png" />
+      </div>
+      <div class="spacer"></div>
+      <app-menu [isMeSelected]="true"></app-menu>
+    </div>
+  </div>
+  <div class="page-content">
+    <h1 class="align-self-center">Me</h1>
+    <div class="me-introduction mt-5">
+      <img
+        *ngIf="photoUrl; else photoPlaceholder"
+        class="me-photo"
+        [src]="photoUrl"
+        alt="Portrait of the creator of DigimezZo"
+      />
+      <ng-template #photoPlaceholder>
+        <div class="me-photo me-photo-placeholder">Your photo</div>
+      </ng-template>
+      <div>
+        <p>
+          Hi, I'm Raphaël, your friendly neighbourhood software developer and
+          the person behind DigimezZo, the home for the software I create and
+          share, including Dopamine, Knowte and Vitomu. The name is short for
+          "Digital intermezzo", a little break in the digital world.
+        </p>
+        <p>
+          I've been passionate about software ever since I got my first computer
+          as a teenager. It was only a matter of time before I started writing
+          software myself, and I've been doing so for more than 20 years.
+          I work on my projects in my spare time alongside my full-time job,
+          simply because I enjoy creating software.
+        </p>
+        <p>
+          I believe software should work with you, not against you. My goal is
+          to create applications that are clear, easy to use and stay out of
+          your way, without unnecessary interruptions or nagging. You should be
+          able to focus on what you want to do and enjoy doing it.
+        </p>
+        <p>Thanks for stopping by, and I hope you enjoy using my software!</p>
+      </div>
+    </div>
+  </div>
+  <div class="spacer"></div>
+  <app-footer class="w-100"></app-footer>
+</div>
