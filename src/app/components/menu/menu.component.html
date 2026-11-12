@@ -45,18 +45,6 @@
       >
         BLOG
       </div>
-      <div
-        class="fw-bold m-2"
-        [ngClass]="{
-          'text-accent': this.isDonateSelected,
-          'text-white': !this.isDonateSelected
-        }"
-        role="button"
-        routerLink="/donate"
-        (click)="offcanvas.dismiss()"
-      >
-        DONATE
-      </div>
       <a
         class="fw-bold m-2 text-decoration-none"
         [ngClass]="{
@@ -79,6 +67,18 @@
         (click)="offcanvas.dismiss()"
       >
         CONTACT
+      </div>
+      <div
+        class="fw-bold m-2"
+        [ngClass]="{
+          'text-accent': this.isDonateSelected,
+          'text-white': !this.isDonateSelected
+        }"
+        role="button"
+        routerLink="/donate"
+        (click)="offcanvas.dismiss()"
+      >
+        DONATE
       </div>
     </div>
   </div>
@@ -118,17 +118,6 @@
   >
     BLOG
   </div>
-  <div
-    class="fw-bold mx-4"
-    [ngClass]="{
-      'text-accent': this.isDonateSelected,
-      'text-white': !this.isDonateSelected
-    }"
-    role="button"
-    routerLink="/donate"
-  >
-    DONATE
-  </div>
   <a
     class="fw-bold mx-4 text-decoration-none"
     [ngClass]="{
@@ -149,6 +138,17 @@
     routerLink="/contact"
   >
     CONTACT
+  </div>
+  <div
+    class="fw-bold mx-4"
+    [ngClass]="{
+      'text-accent': this.isDonateSelected,
+      'text-white': !this.isDonateSelected
+    }"
+    role="button"
+    routerLink="/donate"
+  >
+    DONATE
   </div>
 </div>
 <div class="hamburger-menu" (click)="open(content)">
