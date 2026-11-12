@@ -9,7 +9,6 @@ import { BlogPostComponent } from "./components/blog/blog-post/blog-post.compone
 import { BlogComponent } from "./components/blog/blog.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { DonateComponent } from "./components/donate/donate.component";
-import { DopamineFaqComponent } from "./components/dopamine-faq/dopamine-faq.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { HomeComponent } from "./components/home/home.component";
 import { MeComponent } from "./components/me/me.component";
@@ -28,7 +27,6 @@ import { SoftwareComponent } from "./components/software/software.component";
     MenuComponent,
     FooterComponent,
     SocialMediaLinkComponent,
-    DopamineFaqComponent,
     BlogComponent,
     BlogPostComponent,
   ],

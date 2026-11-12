@@ -21,17 +21,6 @@
       >
         HOME
       </div>
-      <a
-        class="fw-bold m-2 text-decoration-none"
-        [ngClass]="{
-          'text-accent': this.isMeSelected,
-          'text-white': !this.isMeSelected
-        }"
-        routerLink="/me"
-        (click)="offcanvas.dismiss()"
-      >
-        ME
-      </a>
       <div
         class="fw-bold m-2"
         [ngClass]="{
@@ -68,6 +57,17 @@
       >
         DONATE
       </div>
+      <a
+        class="fw-bold m-2 text-decoration-none"
+        [ngClass]="{
+          'text-accent': this.isMeSelected,
+          'text-white': !this.isMeSelected
+        }"
+        routerLink="/me"
+        (click)="offcanvas.dismiss()"
+      >
+        ME
+      </a>
       <div
         class="fw-bold m-2"
         [ngClass]="{
@@ -96,16 +96,6 @@
   >
     HOME
   </div>
-  <a
-    class="fw-bold mx-4 text-decoration-none"
-    [ngClass]="{
-      'text-accent': this.isMeSelected,
-      'text-white': !this.isMeSelected
-    }"
-    routerLink="/me"
-  >
-    ME
-  </a>
   <div
     class="fw-bold mx-4"
     [ngClass]="{
@@ -139,6 +129,16 @@
   >
     DONATE
   </div>
+  <a
+    class="fw-bold mx-4 text-decoration-none"
+    [ngClass]="{
+      'text-accent': this.isMeSelected,
+      'text-white': !this.isMeSelected
+    }"
+    routerLink="/me"
+  >
+    ME
+  </a>
   <div
     class="fw-bold mx-4"
     [ngClass]="{
